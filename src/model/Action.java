@@ -1,0 +1,5 @@
+package model;
+
+public enum Action {
+	DOWNLOAD, GETLOAD, FIND, FILELIST, UPDATELIST, REGISTER, DOWNLOAD_FROM_TRACK_SERVER;
+}

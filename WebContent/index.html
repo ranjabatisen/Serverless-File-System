@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>File System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-image: url('source.gif');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                font-weight: bold;
+            }
+            .center {
+                margin: auto;
+                width: 60%;
+                padding: 150px;
+                line-height: 200%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <form action = "PeerUIConnectorServlet" method = "POST">
+                <font color="green">ENTER UNIQUE PORT NUMBER TO CONNECT WITH PEER</font><br>
+                <input type="text" name="port" value="1234"><br />
+                <font color="blue">ENTER FILENAME TO DOWNLOAD</font><br>
+                <input type="text" name="filename"><br />
+                <br>
+                <br>
+                <input type = "image" src="submit.gif" alt = "Submit" width="90" height="90" />
+            </form>
+        </div>
+    </body>
+</html>
